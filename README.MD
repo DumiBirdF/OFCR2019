@@ -17,7 +17,7 @@
 **或者**  
 4. 打开Windows的命令提示符，使用cd指令指向`OFCR2019`文件夹，如图所示  
 ![image](https://i.ibb.co/8NZjC8g/TIM-20190107234945.png)  
-5. 输入`git init.`进行初始化;  
+5. 输入`git init .`进行初始化;  
 6. 设置git下载节点，海外用户推荐使用GitHub节点`git remote add origin https://github.com/OMGCA/OFCR2019.git`;  
 中国大陆用户推荐使用阿里云节点`git remote add origin https://code.aliyun.com/OMGCA/OFCR2019.git`;  
 **注意：这里命令行中的`origin`可以是你任意设置的词**  
