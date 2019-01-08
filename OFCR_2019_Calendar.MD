@@ -7,12 +7,12 @@
         <th>Laps</th>
         <th>Pole Position</th>
         <th>Race Winner</th>
-        <th>Participation Rate</th>
+        <th>Attandance Rate</th>
         <th>DNF Rate</th>
     </tr>
     <tr>
         <th>19/20 Jan.</th>
-        <th>Okayama</th>
+        <th>Okayama Int'l</th>
         <th>Pacific</th>
         <th>26</th>
         <th>-</th>
