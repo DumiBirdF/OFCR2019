@@ -11,14 +11,14 @@
 3. 右击 `OFCR2019`文件夹, 并选择 `Git Bash Here`，弹出如下窗口  
 ![image](https://i.ibb.co/BV6Q86j/TIM-20190107234748.png)  
 **或者**  
-3. 打开Windows的命令提示符，使用cd指令指向`OFCR2019`文件夹，如图所示  
+4. 打开Windows的命令提示符，使用cd指令指向`OFCR2019`文件夹，如图所示  
 ![image](https://i.ibb.co/8NZjC8g/TIM-20190107234945.png)  
-4. 输入`git init.`进行初始化;  
-5. 设置git下载节点，海外用户推荐使用GitHub节点`git remote add origin https://github.com/OMGCA/OFCR2019.git`;  
+5. 输入`git init.`进行初始化;  
+6. 设置git下载节点，海外用户推荐使用GitHub节点`git remote add origin https://github.com/OMGCA/OFCR2019.git`;  
 中国大陆用户推荐使用阿里云节点`git remote add origin https://code.aliyun.com/OMGCA/OFCR2019.git`;  
 **注意：这里命令行中的`origin`可以是你任意设置的词**  
-6. 从节点下载文件，输入`git pull origin master`(origin处要和你之前设置的词相匹配)。  
-**以上为初始化设置过程，若进行更新操作，只需执行步骤6即可**  
+7. 从节点下载文件，输入`git pull origin master`(origin处要和你之前设置的词相匹配)。  
+**以上为初始化设置过程，若进行更新操作，只需执行步骤7即可**  
 注意：如果想要修改节点，只需在更新前输入`git remote set-url `后接你想要更换的节点即可。  
 
 
@@ -41,7 +41,7 @@
 2. 右上角按钮更改为`pull origin`时代表有更新可用，此时再点击`pull origin`即可完成更新  
 ![image](https://i.ibb.co/cvwgF8t/TIM-20190108000432.png)  
 
-使用桌面版进行配置后使用命令行进行更新只需重复命令行步骤中的1,3,6即可  
+使用桌面版进行配置后使用命令行进行更新只需重复命令行步骤中的1,3,7即可  
 
 ## 如何通过GitHub网页版上交涂装/车手文件  
 1. 确保你已经有一个可用的GitHub账号  
