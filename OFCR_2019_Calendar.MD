@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <th>19/20 Jan.</th>
-        <th>Okayama Int'l</th>
+        <th>Okayama</th>
         <th>Pacific</th>
         <th>26</th>
         <th>-</th>
