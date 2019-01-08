@@ -1,42 +1,41 @@
 # OFCR-2019-AutoUpdate
 
-**This tutorial will provide instruction to experience the experimental OFCR auto update system**.
+**本文档将引导如何设置并进行OFCR rFactor mod热升级功能**.
 
-This tutorial presents two approaches: (1) Command line prompt with `Git` (efficient); (2) [GitHub Desktop](https://desktop.github.com/), which has intuitive user interface.
+用户可从以下两种选项中任选一项进行设置: (1) 使用 `Git`命令提示符(效率较高); (2) 带有图形界面的[GitHub桌面版](https://desktop.github.com/)，易于上手操作
 
-*Of course you can always click `Download ZIP` button in `Clone or download` and extract the files to correct directory on your own* :)
+## 命令提示符
+
+1. [下载Git](https://git-scm.com/downloads)，选择适用于你的操作系统版本（32/64位）_参与过公测的用户请忽略这一步_;  
+2. 在 `\\rFactor\GameData\Vehicles\`文件夹下新建`OFCR2019`文件夹;  
+3. 右击 `OFCR2019`文件夹, 并选择 `Git Bash Here`，弹出如下窗口  
+![image](https://i.ibb.co/BV6Q86j/TIM-20190107234748.png)  
+**或者**  
+3. 打开Windows的命令提示符，使用cd指令指向`OFCR2019`文件夹，如图所示  
+![image](https://i.ibb.co/8NZjC8g/TIM-20190107234945.png)  
+4. 输入`git init.`进行初始化;  
+5. 设置git下载节点，海外用户推荐使用GitHub节点`git remote add origin https://github.com/OMGCA/OFCR2019.git`;  
+中国大陆用户推荐使用阿里云节点`git remote add origin https://code.aliyun.com/OMGCA/OFCR2019.git`;  
+**注意：这里命令行中的`origin`可以是你任意设置的词**  
+6. 从节点下载文件，输入`git pull origin master`(origin处要和你之前设置的词相匹配)。  
+**以上为初始化设置过程，若进行更新操作，只需执行步骤6即可**  
+注意：如果想要修改节点，只需在更新前输入`git remote set-url `后接你想要更换的节点即可。  
 
 
+## GitHub桌面版设置  
 
-## Command line prompt
+1. [下载GitHub桌面版](https://desktop.github.com/)，由于GitHub没有大陆节点，下载速度比较慢，请耐心等待;  
+2. 首次打开GitHub桌面版可能会提示注册账号，该步骤可以跳过，如果想要通过GitHub进行涂装/车手更新则需要注册账户;  
+3. 打开后出现如下界面，选择最右侧的`Clone a repository`  
+![image](https://i.ibb.co/z4vgckn/TIM-20190107235732.png)  
+4. 首先选择Vehicles文件夹，如图所示  
+![image](https://i.ibb.co/xHSmFH0/TIM-20190107235902.png)  
+5. 其次设置下载节点，国外用户推荐使用GitHub节点，在上方输入`https://github.com/OMGCA/OFCR2019.git`  
+中国大陆用户推荐使用阿里云节点，在上方输入`https://code/aliyun.com/OMGCA/OFCR2019.git`  
+6. 出现如下界面表示正在进行下载  
+![image](https://i.ibb.co/jk78sX3/TIM-20190108000121.png)  
 
-Note: This tutorial is for **non-developers**
+### 进行更新操作（桌面版）  
+1. 打开如下界面后点击如图所示fetch  
+![image](https://i.ibb.co/GHBQnJb/TIM-20190108000314.png)  
 
-1. Install Git from [https://git-scm.com/downloads](https://git-scm.com/downloads). Choose appropriate version according to you OS (e.g. Windows x86/x64)
-2. Delete all files in folder `\\OFCR_2019_OpenBeta\GameData\Vehicles\OFCR2019`
-3. Right click at local vehicle folder (`\\OFCR_2019_OpenBeta\GameData\Vehicles\OFCR2019`), choose `Git Bash Here`. A command line (a window with black screen) will prompt
-4. Type `git init . && git remote add upstream https://github.com/OMGCA/OFCR-2019-AutoUpdate.git` then hit `Enter`  
-**(For better download speed in China, use `https://code.aliyun.com/OMGCA/ofcr-2019-autoupdate-beta.git` instead)**  
-5. Type `git pull upstream master:master` then hit `Enter`. The download process will begin. Please wait patiently for all files to finish download
-6. Note that first-time download will spend a lot of time, since it is a full download and it is hosted on GitHub. Future updates will only download **updated** files. We expect shorter download time  
-7. Type `git pull upstream master` only for updating  
-
-Enjoy!
-
-## GitHub Desktop
-
-### Step 1: Delete local vehicle folder
-**ALWAYS BACKUP YOUR ORIGINAL FOLDER**
-![image](https://i.ibb.co/fC9vjSK/step1-1.png)
-### Step 2: Register a GitHub account _(optional)_ and download [GitHub Desktop](https://desktop.github.com/)
-### Step 3: Choose 'clone repository' and modify path as shown below
-![image](https://i.ibb.co/tK8pP3v/TIM-20181225112125.png)  
-Download from oversea: https://github.com/OMGCA/OFCR-2019-AutoUpdate.git   
-Download from mainlan China: https://code.aliyun.com/OMGCA/ofcr-2019-autoupdate-beta.git  
-![image](https://i.ibb.co/PCVjYwR/TIM-20181225132330.png)  
-### Step 4: Wait for the download to complete
-It may take longer to download the whole repo initialially. Afterwards, only changed files will be downloaded.
-### Step 5: When updating, simply click 'fetch', then wait until 'pull' is available, then select 'pull'
-![image](https://i.ibb.co/jvZkNXY/TIM-20181225112315.png)
-![image](https://i.ibb.co/M8N2QbK/TIM-20181225112327.png)  
-**Update Complete**
