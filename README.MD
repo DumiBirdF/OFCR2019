@@ -1,8 +1,8 @@
 # OFCR2019  
 
 本引导需要OFCR2019 rFactor mod进行下载（不含Vehicles文件夹）  
-![百度网盘，提取码r6em](https://pan.baidu.com/s/14BYf29h7_AemJl2AF6HzSg)    
-![Google Drive](https://drive.google.com/open?id=1nzLE-shLsc9lgF4T0oiTpUhLOdZjQX9f)    
+[百度网盘，提取码r6em](https://pan.baidu.com/s/14BYf29h7_AemJl2AF6HzSg)    
+[Google Drive](https://drive.google.com/open?id=1nzLE-shLsc9lgF4T0oiTpUhLOdZjQX9f)    
 
 **本文档将引导如何设置并进行OFCR rFactor mod热升级功能**.
 
