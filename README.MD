@@ -39,4 +39,18 @@
 1. 打开如下界面后点击如图所示fetch  
 ![image](https://i.ibb.co/GHBQnJb/TIM-20190108000314.png)  
 2. 右上角按钮更改为`pull origin`时代表有更新可用，此时再点击`pull origin`即可完成更新  
-![image](https://i.ibb.co/cvwgF8t/TIM-20190108000432.png)
+![image](https://i.ibb.co/cvwgF8t/TIM-20190108000432.png)  
+
+使用桌面版进行配置后使用命令行进行更新只需重复命令行步骤中的1,3,6即可  
+
+## 如何通过GitHub网页版上交涂装/车手文件  
+1. 确保你已经有一个可用的GitHub账号  
+2. [进入OFCR更新库](https://github.com/OMGCA/OFCR2019)，点击右上角的Fork  
+![image](https://i.ibb.co/yFHYkFY/TIM-20190108000839.png)  
+该操作会复制一份更新库到你的账号中并允许你在不修改原始库的情况下上传或更改文件  
+3. 选择到你更改过后文件的存放位置（以更新IXR涂装为例），点击右上角的Upload new files并按照提示进行操作  
+![image](https://i.ibb.co/0t0F6cS/TIM-20190108000951.png)  
+4. 上传完成后，在你自己的库中首页会出现`pull request`选项并点击  
+![image](https://i.ibb.co/QCKZWXn/TIM-20190108001058.png)  
+5. 点击`Create pull request`即可，OFCR管理人员即可看到你发起的文件修改申请并予以通过/不通过  
+![image](https://i.ibb.co/vDvWj3L/TIM-20190108001213.png)  
