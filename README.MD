@@ -38,4 +38,5 @@
 ### 进行更新操作（桌面版）  
 1. 打开如下界面后点击如图所示fetch  
 ![image](https://i.ibb.co/GHBQnJb/TIM-20190108000314.png)  
-
+2. 右上角按钮更改为`pull origin`时代表有更新可用，此时再点击`pull origin`即可完成更新  
+![image](https://i.ibb.co/cvwgF8t/TIM-20190108000432.png)
