@@ -31,7 +31,7 @@
 4. 首先选择Vehicles文件夹，如图所示  
 ![image](https://i.ibb.co/xHSmFH0/TIM-20190107235902.png)  
 5. 其次设置下载节点，国外用户推荐使用GitHub节点，在上方输入`https://github.com/OMGCA/OFCR2019.git`  
-中国大陆用户推荐使用阿里云节点，在上方输入`https://code/aliyun.com/OMGCA/OFCR2019.git`  
+中国大陆用户推荐使用阿里云节点，在上方输入`https://code.aliyun.com/OMGCA/OFCR2019.git`  
 6. 出现如下界面表示正在进行下载并等待下载完成，mod即可使用  
 ![image](https://i.ibb.co/jk78sX3/TIM-20190108000121.png)  
 
