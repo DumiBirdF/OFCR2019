@@ -51,10 +51,22 @@
 1. 确保你已经有一个可用的GitHub账号  
 2. [进入OFCR更新库](https://github.com/OMGCA/OFCR2019)，点击右上角的Fork  
 ![image](https://i.ibb.co/yFHYkFY/TIM-20190108000839.png)  
-该操作会复制一份更新库到你的账号中并允许你在不修改原始库的情况下上传或更改文件  
-3. 选择到你更改过后文件的存放位置（以更新IXR涂装为例），点击右上角的Upload new files并按照提示进行操作  
+该操作会复制一份更新库到你的账号中并允许你在不修改原始库的情况下上传或更改文件 
+(以上步骤为初始化，以下为每次提交更新的步骤）  
+3. 进行提交前请确保你的repo与原始repo版本相同：
+**如果你的repo首页有以下消息，请忽略该步骤**  
+![image](https://i.ibb.co/Fn1Q0yS/TIM-20190108124029.png)  
+* 1. 进入**你的**repo页面，点击New pull request  
+![image](https://i.ibb.co/Gn2jZ8q/TIM-20190108123422.png)  
+* 2. 左侧选择你的repo，右侧选择原始repo 
+![image](https://i.ibb.co/4mdhBkh/TIM-20190108123731.png)  
+* 3. 点击Create pull request  
+![image](https://i.ibb.co/9tnK8Dj/TIM-20190108123810.png) 
+* 4. 进入你的repo页面后点击pull request，找到你刚刚发起的request，点击Merge pull request  
+![image](https://i.ibb.co/hDNYNMT/TIM-20190108123955.png)  
+4. 选择到你更改过后文件的存放位置（以更新IXR涂装为例），点击右上角的Upload new files并按照提示进行操作  
 ![image](https://i.ibb.co/0t0F6cS/TIM-20190108000951.png)  
-4. 上传完成后，在你自己的库中首页会出现`pull request`选项并点击  
+5. 上传完成后，在你自己的库中首页会出现`pull request`选项并点击  
 ![image](https://i.ibb.co/QCKZWXn/TIM-20190108001058.png)  
-5. 点击`Create pull request`即可，OFCR管理人员即可看到你发起的文件修改申请并予以通过/不通过  
+6. 点击`Create pull request`即可，OFCR管理人员即可看到你发起的文件修改申请并予以通过/不通过  
 ![image](https://i.ibb.co/vDvWj3L/TIM-20190108001213.png)  
