@@ -4,6 +4,7 @@
         <th>Date</th>
         <th>Circuit</th>
         <th>Country/Region</th>
+        <th>Laps</th>
         <th>Pole Position</th>
         <th>Race Winner</th>
         <th>Participation Rate</th>
@@ -13,6 +14,7 @@
         <th>19/20 Jan.</th>
         <th>Okayama Int'l</th>
         <th>Pacific</th>
+        <th>26</th>
         <th>-</th>
         <th>-</th>
         <th>-%</th>
@@ -22,6 +24,7 @@
         <th>26/27 Jan.</th>
         <th>Sepang Int'l</th>
         <th>Malaysia</th>
+        <th>22</th>
         <th>-</th>
         <th>-</th>
         <th>-%</th>
@@ -31,6 +34,7 @@
         <th>2/3 Feb.</th>
         <th>Algarve</th>
         <th>Portugal</th>
+        <th>24</th>
         <th>-</th>
         <th>-</th>
         <th>-%</th>
